@@ -89,4 +89,5 @@ Before you begin, ensure you have the following installed and running:
 *   **`model requires more system memory`:** The selected LLM might be too large for your system's available RAM.
     *   Try a smaller model (e.g., `phi3:medium`) by choosing it in the sidebar or updating the `model` in `config["llm"]["config"]` within `local_chatgpt_memory.py`, then run `ollama pull <model_name>`.
     *   Consider increasing your system's available RAM or using a remote LLM provider.
-*   **`AttributeError: 'QdrantClient' object has no attribute 'search'`:** This indicates a version incompatibility between `mem0ai` and `qdrant-client`. Run `pip install -r requirements.txt --upgrade --no-cache-dir` to ensure the latest compatible versions are installed.
+
+*   **`AttributeError: 'QdrantClient' object has no attribute 'search'`:** This indicates a version incompatibility between `mem0ai` and `qdrant-client`. Run `pip install -r requirements.txt --upgrade --no-cache-dir` to ensure the latest compatible versions are installed.....
