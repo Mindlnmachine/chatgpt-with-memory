@@ -91,3 +91,5 @@ Before you begin, ensure you have the following installed and running:
     *   Consider increasing your system's available RAM or using a remote LLM provider.
 
 *   **`AttributeError: 'QdrantClient' object has no attribute 'search'`:** This indicates a version incompatibility between `mem0ai` and `qdrant-client`. Run `pip install -r requirements.txt --upgrade --no-cache-dir` to ensure the latest compatible versions are installed.....
+
+!!!!!!!!!!
