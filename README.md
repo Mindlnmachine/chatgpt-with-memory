@@ -1,5 +1,3 @@
-# 🧠 Local Chatbot with Personalized Memory (Gemma 3:1b)
-
 # 🧠 Local Chatbot with Personalized Memory (Configurable: Gemma, LLaMA, Phi-3)
 
 Repository: https://github.com/Mindlnmachine/chatgpt-with-memory
@@ -93,3 +91,4 @@ Before you begin, ensure you have the following installed and running:
 *   **`AttributeError: 'QdrantClient' object has no attribute 'search'`:** This indicates a version incompatibility between `mem0ai` and `qdrant-client`. Run `pip install -r requirements.txt --upgrade --no-cache-dir` to ensure the latest compatible versions are installed.....
 
 !!!!!!!!!!
+
