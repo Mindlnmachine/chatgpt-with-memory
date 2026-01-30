@@ -1,7 +1,5 @@
 # 🧠 Local Chatbot with Personalized Memory (Configurable: Gemma, LLaMA, Phi-3)
 
-Repository: https://github.com/Mindlnmachine/chatgpt-with-memory
-
 This Streamlit application provides a fully local chatbot experience, leveraging local LLMs via Ollama (e.g., Gemma 3:1b, LLaMA 3, Phi-3) and personalized memory management for each user. All core components, including the large language model (LLM), embedding model, and vector store, operate entirely on your local machine, eliminating the need for external API keys.
 
 ## ✨ Features
@@ -90,5 +88,5 @@ Before you begin, ensure you have the following installed and running:
 
 *   **`AttributeError: 'QdrantClient' object has no attribute 'search'`:** This indicates a version incompatibility between `mem0ai` and `qdrant-client`. Run `pip install -r requirements.txt --upgrade --no-cache-dir` to ensure the latest compatible versions are installed.....
 
-!!!!!!!!!!
+
 
